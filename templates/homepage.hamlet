@@ -1,0 +1,14 @@
+
+<div id="yespandoc">
+    <form method=post action=@{HomeR} enctype=#{formEnctype}>
+        ^{formWidget}
+        <div id="view">
+            $case output
+                $of Left str
+                    <pre>#{str}
+                $of Right str
+                    <pre>#{str}
+
+<div id="github">
+    <a href="https://github.com/rnons/yespandoc">yespandoc
+

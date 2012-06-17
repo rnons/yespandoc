@@ -1,0 +1,15 @@
+# yespandoc
+
+As the name implies, yespandoc = yesod + pandoc
+
+It's a simple web interface to [pandoc].
+
+In fact, this is my effort to learn [yesod]. After I form this idea, I noticed [try pandoc].
+
+Much can be done to improve this app.
+
+Demo: [http://yespandoc.herokuapp.com](http://yespandoc.herokuapp.com)
+
+[yesod]: http://www.yesodweb.com
+[pandoc]: http://johnmacfarlane.net/pandoc
+[try pandoc]: http://johnmacfarlane.net/pandoc/try

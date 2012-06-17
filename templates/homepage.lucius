@@ -1,0 +1,41 @@
+.editor {
+    top: 45px;
+    bottom: 20px;
+    left:10px;
+    right: 50%;
+    margin-right: 5px;
+    overflow: auto;
+    position: absolute;
+}
+
+#yespandoc {
+  top: 10px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+}
+
+#edit {
+    width: 95%; 
+    height: 98%;
+}
+
+#view {
+    top: 45px;
+    bottom: 20px;
+    left: 50%;
+    right: 10px;
+    margin-left: 5px;
+    readonly: readonly;
+    overflow: auto;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+#github {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    margin-left: -30px
+}
